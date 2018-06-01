@@ -7,7 +7,7 @@ var apm = require('elastic-apm-node').start({
   secretToken: '',
 
   // Set custom APM Server URL (default: http://localhost:8200)
-  serverUrl: '10.128.0.3:8200'
+  serverUrl: 'http://10.128.0.3:8200'
 })
 //  OpenShift sample Node application
 var express = require('express'),
